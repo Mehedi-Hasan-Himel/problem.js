@@ -28,3 +28,23 @@ if (time >= 4 && time < 12) {
 }
 */
 // Problem: 02 End;
+
+// Problem: 03 Start;
+// Class 8 , GPA result by mark-sheet number.
+/*
+let mark = 32;
+if (mark >= 80) {
+  console.log(`A+`);
+} else if (mark <= 79 && mark > 69) {
+  console.log(`A`);
+} else if (mark <= 69 && mark > 59) {
+  console.log(`A-`);
+} else if (mark <= 59 && mark > 49) {
+  console.log(`B`);
+} else if (mark <= 49 && mark >= 33) {
+  console.log(`D`);
+} else {
+   console.log(`Fail`);
+}
+*/
+// Problem: 03 End;
