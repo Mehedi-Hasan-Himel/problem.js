@@ -52,12 +52,24 @@ if (mark >= 80) {
 // Problem: 04 Start;
 
 // find odd number and even number among 1 to 50
+// for loop
 for (let i = 1; i <= 50; i++) {
   if (i % 2 == 0) {
     console.log(i + ` even number`);
   } else {
     console.log(i + ` odd number`);
   }
+}
+c
+// while loop
+let i = 50;
+while (i >= 1) {
+  if (i % 2 == 0) {
+    console.log(i + ` Even Number`);
+  } else {
+    console.log(i + ` Odd Number`);
+  }
+  i--;
 }
 // Problem: 04 End;
 */
