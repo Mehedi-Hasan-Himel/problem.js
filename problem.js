@@ -238,6 +238,12 @@ for (let index = 1; index <=100; index++) {
 
 
 // Problem: 16 Start;
-
-
+//  friends দের নিয়ে friends নামে একটা array লেখ । তারপর এক এক করে সব friend এর কাছে টাকা ধার চাওয়ার জন্য একটা for loop লেখ । 
+/* 
+let friends = [`amina`, `jamina`, `karina`, `Sharlin`];
+for (let index = 0; index < friends.length; index++) {
+  let aFriend = friends[index];
+  console.log(aFriend, `Taka Lagbe`);
+}
+*/
 // Problem: 16 End;
