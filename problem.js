@@ -194,10 +194,50 @@ while (poke <100) {
 
 // " ঈদ মোবারক " কথা টা 14 জনকে SMS করে পাঠাতে হবে সেই program:
 /*
-let sms = 0
-while (sms <14) {
-  console.log(`" ঈদ মোবারক "`);
+let sms = 1
+while (sms <=14) {
+  console.log(sms + `" ঈদ মোবারক "`);
   sms++;
 }
 */
 // Problem: 12 End;
+
+
+// Problem: 13 Start;
+
+// For loop দিয়ে  1 থেকে 20 পর্যন্ত সবগুলা সংখ্যার output হিসেবে দেখাও । 
+/* 
+for (let index = 1; index <=20 ; index++) {
+  console.log(index);
+}
+*/
+// Problem: 13 End;
+
+
+// Problem: 14 Start;
+
+// For loop দিয়ে  36 থেকে 63 পর্যন্ত সবগুলা সংখ্যার output হিসেবে দেখাও । 
+/*
+for (let index = 36; index <= 63; index++) {
+  console.log(index);
+}
+*/
+// Problem: 14 End;
+
+
+// Problem: 15 Start;
+// 1 থেকে 100 পর্যন্ত সব সংখ্যার যোগ করার জন্য একটা for loop লেখো । 
+/*
+let sum = 0;
+for (let index = 1; index <=100; index++) {
+  sum = sum + index;
+  console.log(sum);
+}
+*/
+// Problem: 15 End;
+
+
+// Problem: 16 Start;
+
+
+// Problem: 16 End;
