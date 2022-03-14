@@ -247,3 +247,17 @@ for (let index = 0; index < friends.length; index++) {
 }
 */
 // Problem: 16 End;
+
+
+// Problem: 17 Start;
+// 5 টি বই এর নাম লিখে সেখান থেকে 5 টি বই এর নাম নিয়ে books নাম দিয়ে একটা array লেখো এখন একটা for loop দিয়ে books নামক array এর সব বইয়ের নাম output হিসেবে দেখাও । 
+/*
+let books = [`হাতে কলমে JavaScript`, `হাবলুদের জন্য প্রোগ্রামিং`, `প্রোগ্রামিংয়ে বলদ টু বস `, `প্রোগ্রামিং এর চৌদ্দ গুষ্ঠি `, `Reacherge your down bettery`]; 
+
+for (let index = 0; index < books.length; index++) {
+  let singleBook = books[index]
+  console.log( `No`, index + 1, singleBook);
+  
+}
+*/ 
+// Problem: 17 End;
