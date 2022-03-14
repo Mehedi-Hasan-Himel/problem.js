@@ -202,10 +202,9 @@ while (sms <=14) {
 */
 // Problem: 12 End;
 
-
 // Problem: 13 Start;
 
-// For loop দিয়ে  1 থেকে 20 পর্যন্ত সবগুলা সংখ্যার output হিসেবে দেখাও । 
+// For loop দিয়ে  1 থেকে 20 পর্যন্ত সবগুলা সংখ্যার output হিসেবে দেখাও ।
 /* 
 for (let index = 1; index <=20 ; index++) {
   console.log(index);
@@ -213,10 +212,9 @@ for (let index = 1; index <=20 ; index++) {
 */
 // Problem: 13 End;
 
-
 // Problem: 14 Start;
 
-// For loop দিয়ে  36 থেকে 63 পর্যন্ত সবগুলা সংখ্যার output হিসেবে দেখাও । 
+// For loop দিয়ে  36 থেকে 63 পর্যন্ত সবগুলা সংখ্যার output হিসেবে দেখাও ।
 /*
 for (let index = 36; index <= 63; index++) {
   console.log(index);
@@ -224,9 +222,8 @@ for (let index = 36; index <= 63; index++) {
 */
 // Problem: 14 End;
 
-
 // Problem: 15 Start;
-// 1 থেকে 100 পর্যন্ত সব সংখ্যার যোগ করার জন্য একটা for loop লেখো । 
+// 1 থেকে 100 পর্যন্ত সব সংখ্যার যোগ করার জন্য একটা for loop লেখো ।
 /*
 let sum = 0;
 for (let index = 1; index <=100; index++) {
@@ -236,9 +233,8 @@ for (let index = 1; index <=100; index++) {
 */
 // Problem: 15 End;
 
-
 // Problem: 16 Start;
-//  friends দের নিয়ে friends নামে একটা array লেখ । তারপর এক এক করে সব friend এর কাছে টাকা ধার চাওয়ার জন্য একটা for loop লেখ । 
+//  friends দের নিয়ে friends নামে একটা array লেখ । তারপর এক এক করে সব friend এর কাছে টাকা ধার চাওয়ার জন্য একটা for loop লেখ ।
 /* 
 let friends = [`amina`, `jamina`, `karina`, `Sharlin`];
 for (let index = 0; index < friends.length; index++) {
@@ -248,9 +244,8 @@ for (let index = 0; index < friends.length; index++) {
 */
 // Problem: 16 End;
 
-
 // Problem: 17 Start;
-// 5 টি বই এর নাম লিখে সেখান থেকে 5 টি বই এর নাম নিয়ে books নাম দিয়ে একটা array লেখো এখন একটা for loop দিয়ে books নামক array এর সব বইয়ের নাম output হিসেবে দেখাও । 
+// 5 টি বই এর নাম লিখে সেখান থেকে 5 টি বই এর নাম নিয়ে books নাম দিয়ে একটা array লেখো এখন একটা for loop দিয়ে books নামক array এর সব বইয়ের নাম output হিসেবে দেখাও ।
 /*
 let books = [`হাতে কলমে JavaScript`, `হাবলুদের জন্য প্রোগ্রামিং`, `প্রোগ্রামিংয়ে বলদ টু বস `, `প্রোগ্রামিং এর চৌদ্দ গুষ্ঠি `, `Reacherge your down bettery`]; 
 
@@ -259,5 +254,135 @@ for (let index = 0; index < books.length; index++) {
   console.log( `No`, index + 1, singleBook);
   
 }
-*/ 
+*/
 // Problem: 17 End;
+
+// Problem: 18 Start;
+// দুইটা সংখ্যা গুন করার একটি function লেখ । সেই function দুইটা input নাও , তারপর সেই দুইটা input গুন করে গুণফল একটা variable এ রাখো । শেষে গুণফলটা return করো ।
+/*
+let firstNumber;
+let secondNumber;
+
+function gunFol(firstNumber, secondNumber) {
+  let gunFol = firstNumber * secondNumber;
+  return gunFol;
+}
+
+let result = gunFol(50, 100);
+
+console.log(result);
+*/
+// Problem: 18 End;
+
+// Problem: 19 Start;
+
+// 3 টি সংখ্যা যোগ করার একটি function লেখ ।
+/*
+let firstNumber;
+let secondNumber;
+let thirdNumber; 
+
+function gunFol(firstNumber, secondNumber,thirdNumber) {
+  let gunFol = firstNumber + secondNumber + thirdNumber;
+  return gunFol;
+}
+
+let result = gunFol(50, 100, 200);
+
+console.log(result);
+*/
+// Problem: 19 End;
+
+// Problem: 20 Start;
+
+// seconds থেকে hours convert function.
+/* 
+function secondsToHours(seconds) {
+  let minutes = seconds / 60;
+  let hours = minutes / 60;
+  return hours;
+}
+
+console.log(secondsToHours(7200));
+*/
+// Problem: 20 End;
+
+// Problem: 21 Start;
+
+// feet to goj function. 3 foot = 1 goj.
+/* 
+function kotoGoj(inputFeet) {
+  let goj = inputFeet / 3;
+  return goj
+}
+
+console.log(kotoGoj(6));
+*/
+// Problem: 21 End;
+
+// Problem: 22 Start;
+
+// Goj to mile. 1760 goj = 1 mile.
+/*
+function kotoMile(kotoGoj) {
+  let mile = kotoGoj / 1760;
+  return mile;
+}
+
+console.log(kotoMile(12000));
+*/
+// Problem: 22 End;
+
+// Problem: 23 Start;
+
+// feet to mile.
+
+/* 
+Practice Start
+
+let averestHeight = 29029;
+
+// 3 feet =  1 goj; 1760 goj = 1 mile;
+
+let mile1 = 1760 * 3;
+console.log(`1 mile = ` + mile1 + ` feet`);
+let averestHeightInFeet = averestHeight / mile1;
+console.log(averestHeightInFeet);
+
+Practice End
+*/
+/*
+function kotoGoj(inputFeet) {
+  let goj = inputFeet / 3;
+  return goj;
+}
+
+function kotoMile(kotoGoj) {
+  let mile = kotoGoj / 1760;
+  return mile;
+}
+
+let feet = 29029;
+
+let goj = kotoGoj(feet);
+
+let avarestMile = kotoMile(goj)
+
+console.log(avarestMile);
+*/
+// Problem: 23 End;
+
+
+// Problem: 24 Start;
+
+// Feet to Mile
+/*
+function feetToMile(feet){
+var goj = feet / 3;
+var mile = goj / 1760;
+return mile;
+}
+console.log(feetToMile(29029));
+*/ 
+// result: 5.497916666666667
+// Problem: 24 End;
