@@ -383,6 +383,13 @@ var mile = goj / 1760;
 return mile;
 }
 console.log(feetToMile(29029));
-*/ 
+*/
 // result: 5.497916666666667
 // Problem: 24 End;
+
+
+// Problem: 25 Start;
+
+
+
+// Problem: 25 End;
