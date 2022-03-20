@@ -390,6 +390,25 @@ console.log(feetToMile(29029));
 
 // Problem: 25 Start;
 
+// Valentine Day তে ফুল বিক্রি করবো । আমার কাছে নানান ধরনের ফুল থাকবে । তাই (Flower) নামে একটা class declare করো । 
+class Flower{
+   constructor(WhichFlower, Amount) {
+      this.WhichFlower = WhichFlower;
+      this.Amount = Amount; 
+   }
+}
 
+let myFlower = new Flower(`Rose`, 5);
+console.log(myFlower);
+
+let herFlower = new Flower(`Kodom`, 10);
+console.log(herFlower);
 
 // Problem: 25 End;
+
+
+// Problem: 26 Start;
+
+
+
+// Problem: 26 End;
