@@ -372,7 +372,6 @@ console.log(avarestMile);
 */
 // Problem: 23 End;
 
-
 // Problem: 24 Start;
 
 // Feet to Mile
@@ -383,19 +382,18 @@ var mile = goj / 1760;
 return mile;
 }
 console.log(feetToMile(29029));
-*/
+
 // result: 5.497916666666667
 // Problem: 24 End;
 
-
 // Problem: 25 Start;
 
-// Valentine Day তে ফুল বিক্রি করবো । আমার কাছে নানান ধরনের ফুল থাকবে । তাই (Flower) নামে একটা class declare করো । 
-class Flower{
-   constructor(WhichFlower, Amount) {
-      this.WhichFlower = WhichFlower;
-      this.Amount = Amount; 
-   }
+// Valentine Day তে ফুল বিক্রি করবো । আমার কাছে নানান ধরনের ফুল থাকবে । তাই (Flower) নামে একটা class declare করো ।
+class Flower {
+  constructor(WhichFlower, Amount) {
+    this.WhichFlower = WhichFlower;
+    this.Amount = Amount;
+  }
 }
 
 let myFlower = new Flower(`Rose`, 5);
@@ -406,9 +404,32 @@ console.log(herFlower);
 
 // Problem: 25 End;
 
-
 // Problem: 26 Start;
 
+// কোন খাবারের হোটেলে কি কি ভর্তা আছে, সেঁটা vortas নামক array এর মধ্যে লিখ । তারপর সেই array এর মধ্যে sutki ভর্তা (shutkiVorta) কোন পজিশনে আছে , সেটা indexOf ব্যবহার করে বল ।
 
+let vortas = [
+  `aluVorta`,
+  `begunVorta`,
+  `chingriVorta`,
+  `shutkiVorta`,
+  `dimVorta`,
+  `dalVorta`,
+];
+
+for (let index = 0; index < vortas.length; index++) {
+  let shutkiVorta = vortas[index];
+  if (shutkiVorta == `shutkiVorta`) {
+    console.log(vortas.indexOf(shutkiVorta));
+  }
+}
+*/
 
 // Problem: 26 End;
+
+
+// Problem: 27 Start;
+
+
+
+// Problem: 27 End;
