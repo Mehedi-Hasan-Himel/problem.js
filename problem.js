@@ -427,9 +427,34 @@ for (let index = 0; index < vortas.length; index++) {
 
 // Problem: 26 End;
 
-
 // Problem: 27 Start;
 
+// ব্যাঙের common বৈশিষ্ট্য নিয়ে ব্যাঙ (Bang)নামে একটা common class declear করো । Bang class কে extend করে (kolaBang) আর (konoBang) নামে দুইটা class declear করো ।
 
+class Bang {
+  constructor(legs, eyes) {
+    this.legs = legs;
+    this.eyes = eyes;
+  }
+}
 
+class KunuBang extends Bang {
+  constructor(legs, eyes, place) {
+    super(legs, eyes);
+    this.place = place;
+  }
+}
+
+let poraBang = new KunuBang(4, 2, `Room`);
+console.log(poraBang);
+
+class KolaBang extends Bang {
+  constructor(legs, eyes, place) {
+    super(legs, eyes);
+    this.place = place;
+  }
+}
+
+let yellowBang = new KolaBang(4, 2, `water`);
+console.log(yellowBang);
 // Problem: 27 End;
