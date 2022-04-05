@@ -473,7 +473,7 @@ console.log(temperature);
 // Problem: 28 End;
 
 
-// Problem: 29 End;
+// Problem: 29 Start;
 
 // 2- fahrenheit to Celsius  .
 function fahrenheitToCelsius(fahrenheit) {
@@ -484,6 +484,39 @@ function fahrenheitToCelsius(fahrenheit) {
 let temperature = fahrenheitToCelsius(87.8);
 console.log(temperature);
 
-// Problem: 29 Start;
+// Problem: 29 End;
+
+
+// Problem: 30 Start;
+
+// 3- grade calculate
+
+let mark = 55;
+switch (!!mark) {
+  case mark >= 80 && 100 >= mark:
+    console.log(`A+`);
+    break;
+  case mark >= 70 && 79 >= mark:
+    console.log(`A`);
+    break;
+  case mark >= 60 && 69 >= mark:
+    console.log(`A-`);
+    break;
+  case mark >= 50 && 59 >= mark:
+    console.log(`B`);
+    break;
+  case mark >= 40 && 49 >= mark:
+    console.log(`C`);
+    break;
+  case mark >= 33 && 39 >= mark:
+    console.log(`D`);
+    break;
+  case mark < 33:
+    console.log(`F`);
+    break;
+  default:
+    console.log("no data");
+}
+// Problem: 30 End;
 
 */
