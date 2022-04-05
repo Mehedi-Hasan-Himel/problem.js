@@ -423,7 +423,6 @@ for (let index = 0; index < vortas.length; index++) {
     console.log(vortas.indexOf(shutkiVorta));
   }
 }
-*/
 
 // Problem: 26 End;
 
@@ -472,3 +471,19 @@ let temperature = celsiusToFahrenheit(31);
 console.log(temperature);
 
 // Problem: 28 End;
+
+
+// Problem: 29 End;
+
+// 2- fahrenheit to Celsius  .
+function fahrenheitToCelsius(fahrenheit) {
+  let fahrenheitConvertCelsius = (fahrenheit - 32) * (5 / 9);
+  return fahrenheitConvertCelsius;
+}
+
+let temperature = fahrenheitToCelsius(87.8);
+console.log(temperature);
+
+// Problem: 29 Start;
+
+*/
