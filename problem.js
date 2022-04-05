@@ -458,3 +458,17 @@ class KolaBang extends Bang {
 let yellowBang = new KolaBang(4, 2, `water`);
 console.log(yellowBang);
 // Problem: 27 End;
+
+
+// Problem: 28 Start;
+
+//  Celsius to fahrenheit .
+function celsiusToFahrenheit(celsius) {
+  let celsiusConvertFahrenheit = celsius * (9 / 5) + 32;
+  return celsiusConvertFahrenheit;
+}
+
+let temperature = celsiusToFahrenheit(31);
+console.log(temperature);
+
+// Problem: 28 End;
