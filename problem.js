@@ -576,4 +576,33 @@ console.log(small);
 
 // Problem: 33 End;
 
+
+// Problem: 34 Start;
+
+// array এর সব element যোগ করার function.
+
+
+let numbers = [44, 33, 666, 777, 88, 99, 109];
+
+function arrayTotal(numbers) {
+  let sum = 0;
+
+  for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    sum = sum + element;
+  }
+  return sum;
+}
+
+let add = arrayTotal(numbers)
+console.log(add);
+
+// Problem: 34 End;
+
 */
+
+// Problem: 35 Start;
+
+
+
+// Problem: 35 End;
