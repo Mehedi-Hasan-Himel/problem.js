@@ -599,10 +599,36 @@ console.log(add);
 
 // Problem: 34 End;
 
-*/
 
 // Problem: 35 Start;
 
+// Find the "Largest Element" from an array.
 
+function largestElement(numbers) {
+  let largest = 0;
+  for (let index = 0; index < numbers.length; index++) {
+    const element = numbers[index];
+    if (element > largest) {
+      largest = element;
+    }
+  }
+  return largest;
+}
+
+let ages = [12, 504, 92, 34, 75, 32, 12];
+let oldest = largestElement(ages);
+console.log(oldest);
 
 // Problem: 35 End;
+*/
+
+
+// Problem: 36 Start;
+
+// Problem: 36 End;
+
+
+
+// Problem: 37 Start;
+
+// Problem: 37 End;
