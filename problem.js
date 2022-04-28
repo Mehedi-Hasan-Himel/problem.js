@@ -645,7 +645,21 @@ console.log(low);
 */
 
 
-
 // Problem: 37 Start;
 
 // Problem: 37 End;
+
+
+// Problem: 38 Start;
+
+// Problem: 38 End;
+
+
+// Problem: 39 Start;
+
+// Problem: 39 End;
+
+
+// Problem: 40 Start;
+
+// Problem: 40 End;
